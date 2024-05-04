@@ -1,0 +1,32 @@
+2024-05-04 06:15:45,713 - INFO - Creating directory; src\e2emlproject for the file: __init__.py
+2024-05-04 06:15:45,714 - INFO - Creating empty file: src\e2emlproject\__init__.py
+2024-05-04 06:15:45,714 - INFO - Creating directory; src\e2emlproject\components for the file: __init__.py
+2024-05-04 06:15:45,714 - INFO - Creating empty file: src\e2emlproject\components\__init__.py
+2024-05-04 06:15:45,714 - INFO - Creating directory; src\e2emlproject\utils for the file: __init__.py
+2024-05-04 06:15:45,714 - INFO - Creating empty file: src\e2emlproject\utils\__init__.py
+2024-05-04 06:15:45,715 - INFO - Creating directory; src\e2emlproject\utils for the file: common.py
+2024-05-04 06:15:45,715 - INFO - Creating empty file: src\e2emlproject\utils\common.py
+2024-05-04 06:15:45,715 - INFO - Creating directory; src\e2emlproject\config for the file: __init__.py
+2024-05-04 06:15:45,715 - INFO - Creating empty file: src\e2emlproject\config\__init__.py
+2024-05-04 06:15:45,715 - INFO - Creating directory; src\e2emlproject\config for the file: configuration.py
+2024-05-04 06:15:45,716 - INFO - Creating empty file: src\e2emlproject\config\configuration.py
+2024-05-04 06:15:45,716 - INFO - Creating directory; src\e2emlproject\pipelines for the file: __init__.py
+2024-05-04 06:15:45,716 - INFO - Creating empty file: src\e2emlproject\pipelines\__init__.py
+2024-05-04 06:15:45,716 - INFO - Creating directory; src\e2emlproject\entity for the file: __init__.py
+2024-05-04 06:15:45,717 - INFO - Creating empty file: src\e2emlproject\entity\__init__.py
+2024-05-04 06:15:45,717 - INFO - Creating directory; src\e2emlproject\entity for the file: config_entity.py
+2024-05-04 06:15:45,717 - INFO - Creating empty file: src\e2emlproject\entity\config_entity.py
+2024-05-04 06:15:45,717 - INFO - Creating directory; src\e2emlproject\constants for the file: __init__.py
+2024-05-04 06:15:45,717 - INFO - Creating empty file: src\e2emlproject\constants\__init__.py
+2024-05-04 06:15:45,717 - INFO - Creating directory; config for the file: config.yaml
+2024-05-04 06:15:45,718 - INFO - Creating empty file: config\config.yaml
+2024-05-04 06:15:45,718 - INFO - Creating empty file: params.yaml
+2024-05-04 06:15:45,718 - INFO - Creating empty file: schema.yaml
+2024-05-04 06:15:45,719 - INFO - Creating empty file: main.py
+2024-05-04 06:15:45,719 - INFO - Creating empty file: app.py
+2024-05-04 06:15:45,719 - INFO - Creating empty file: requirements.txt
+2024-05-04 06:15:45,720 - INFO - Creating empty file: setup.py
+2024-05-04 06:15:45,720 - INFO - Creating directory; research for the file: trials.ipynb
+2024-05-04 06:15:45,720 - INFO - Creating empty file: research\trials.ipynb
+2024-05-04 06:15:45,720 - INFO - Creating directory; templates for the file: index.html
+2024-05-04 06:15:45,720 - INFO - Creating empty file: templates\index.html
