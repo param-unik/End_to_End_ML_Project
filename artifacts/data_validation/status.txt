@@ -1,0 +1,24 @@
+Data type status for fixed acidity is : True
+Data type status for volatile acidity is : True
+Data type status for citric acid is : True
+Data type status for residual sugar is : True
+Data type status for chlorides is : True
+Data type status for free sulfur dioxide is : True
+Data type status for total sulfur dioxide is : True
+Data type status for density is : True
+Data type status for pH is : True
+Data type status for sulphates is : True
+Data type status for alcohol is : True
+Data type status for quality is : True
+Validation status for fixed acidity is : True
+Validation status for volatile acidity is : True
+Validation status for citric acid is : True
+Validation status for residual sugar is : True
+Validation status for chlorides is : True
+Validation status for free sulfur dioxide is : True
+Validation status for total sulfur dioxide is : True
+Validation status for density is : True
+Validation status for pH is : True
+Validation status for sulphates is : True
+Validation status for alcohol is : True
+Validation status for quality is : True

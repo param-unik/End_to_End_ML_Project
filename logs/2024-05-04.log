@@ -1,2 +1,135 @@
-[2024-05-04 08:58:38,215 INFO main - This is a test logging..]
-[2024-05-04 08:59:11,443 INFO main - This is a customer logging function....]
+[2024-05-04 17:51:32,620 INFO main - >>>>>>> data ingestion pipeline started! <<<<<<<<]
+[2024-05-04 17:51:32,621 INFO data_ingestion_pipeline - Data Ingestion process started...]
+[2024-05-04 17:51:32,622 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 17:51:32,623 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 17:51:32,625 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 17:51:32,625 INFO common - created directory at: artifacts]
+[2024-05-04 17:51:32,626 INFO common - created directory at: artifacts/data_ingestion]
+[2024-05-04 17:51:33,326 INFO data_ingestion - Downloaded artifacts/data_ingestion/data.zip of size ~ 23 KB from https://github.com//entbappy//Branching-tutorial//raw//master//winequality-data.zip with the following info: 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2E26:CAA02:348221:454153:66361F88
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 12:21:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100029-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714825293.561104,VS0,VE249
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2bed69897bf18557d859c3e24e8e84a929b05dcc
+Expires: Sat, 04 May 2024 12:26:32 GMT
+Source-Age: 0
+
+!!]
+[2024-05-04 17:51:33,330 INFO data_ingestion - Zip extration started!]
+[2024-05-04 17:51:33,339 INFO data_ingestion - Zip extraction completed!]
+[2024-05-04 17:51:33,339 INFO data_ingestion_pipeline - Data Ingestion process Completed!]
+[2024-05-04 17:51:33,339 INFO main - >>>>>>> data ingestion pipeline completed! <<<<<<<<]
+[2024-05-04 18:54:07,327 INFO 3728979782 - Data validation process started!:]
+[2024-05-04 18:54:07,335 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 18:54:07,341 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 18:54:07,348 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 18:54:07,350 INFO common - created directory at: artifacts]
+[2024-05-04 18:54:07,351 INFO common - created directory at: artifacts/data_validation]
+[2024-05-04 18:54:07,371 INFO 3728979782 - Data validation process completed!]
+[2024-05-04 18:56:08,983 INFO 3728979782 - Data validation process started!:]
+[2024-05-04 18:56:08,985 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 18:56:08,986 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 18:56:08,988 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 18:56:08,989 INFO common - created directory at: artifacts]
+[2024-05-04 18:56:08,990 INFO common - created directory at: artifacts/data_validation]
+[2024-05-04 18:56:09,069 INFO 3728979782 - Data validation process completed!]
+[2024-05-04 18:58:04,653 INFO 3728979782 - Data validation process started!:]
+[2024-05-04 18:58:04,655 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 18:58:04,656 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 18:58:04,659 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 18:58:04,660 INFO common - created directory at: artifacts]
+[2024-05-04 18:58:04,660 INFO common - created directory at: artifacts/data_validation]
+[2024-05-04 18:58:04,768 INFO 3728979782 - Data validation process completed!]
+[2024-05-04 19:10:11,803 INFO main - >>>>>>> data validation pipeline started! <<<<<<<<]
+[2024-05-04 19:10:11,803 INFO data_validation_pipeline - Data Validation process started...]
+[2024-05-04 19:10:11,803 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 19:10:11,803 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 19:10:11,803 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 19:10:11,803 INFO common - created directory at: artifacts]
+[2024-05-04 19:10:11,819 INFO common - created directory at: artifacts/data_validation]
+[2024-05-04 19:10:11,857 INFO data_validation_pipeline - Data Validation process Completed!]
+[2024-05-04 19:10:11,857 INFO main - >>>>>>> data validation pipeline completed! <<<<<<<<]
+[2024-05-04 19:50:42,191 INFO 1416174021 - Data transformation process started!:]
+[2024-05-04 19:50:42,201 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 19:50:42,207 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 19:50:42,210 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 19:50:42,213 INFO common - created directory at: artifacts]
+[2024-05-04 19:54:03,824 INFO 1416174021 - Data transformation process started!:]
+[2024-05-04 19:54:03,827 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 19:54:03,829 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 19:54:03,831 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 19:54:03,832 INFO common - created directory at: artifacts]
+[2024-05-04 19:54:03,833 INFO common - created directory at: artifacts/data_transformation]
+[2024-05-04 19:54:03,846 INFO 2262795632 - Splitted the data into training set and testing set]
+[2024-05-04 19:54:03,846 INFO 2262795632 - (1199, 12)]
+[2024-05-04 19:54:03,846 INFO 2262795632 - (400, 12)]
+[2024-05-04 19:54:03,846 INFO 1416174021 - Data transformation process completed!]
+[2024-05-04 20:22:25,359 INFO main - >>>>>>> data transformation pipeline started! <<<<<<<<]
+[2024-05-04 20:22:25,359 INFO data_transformation_pipeline - Data Transformation process started...]
+[2024-05-04 20:22:25,359 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:22:25,374 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 20:22:25,374 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:22:25,374 INFO common - created directory at: artifacts]
+[2024-05-04 20:22:25,374 INFO common - created directory at: artifacts/data_transformation]
+[2024-05-04 20:22:25,390 INFO data_transformation - Splitted the data into training set and testing set]
+[2024-05-04 20:22:25,390 INFO data_transformation - (1199, 12)]
+[2024-05-04 20:22:25,390 INFO data_transformation - (400, 12)]
+[2024-05-04 20:22:25,390 INFO data_transformation_pipeline - Data Transformation process Completed!]
+[2024-05-04 20:22:25,397 INFO main - >>>>>>> data transformation pipeline completed! <<<<<<<<]
+[2024-05-04 20:23:21,309 INFO main - >>>>>>> data transformation pipeline started! <<<<<<<<]
+[2024-05-04 20:23:21,310 INFO data_transformation_pipeline - Data Transformation process started...]
+[2024-05-04 20:23:21,312 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:23:21,312 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 20:23:21,314 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:23:21,314 INFO common - created directory at: artifacts]
+[2024-05-04 20:23:21,315 INFO common - created directory at: artifacts/data_transformation]
+[2024-05-04 20:23:21,324 INFO data_transformation - Splitted the data into training set and testing set]
+[2024-05-04 20:23:21,324 INFO data_transformation - (1199, 12)]
+[2024-05-04 20:23:21,324 INFO data_transformation - (400, 12)]
+[2024-05-04 20:23:21,324 INFO data_transformation_pipeline - Data Transformation process Completed!]
+[2024-05-04 20:23:21,324 INFO main - >>>>>>> data transformation pipeline completed! <<<<<<<<]
+[2024-05-04 20:32:32,368 INFO main - >>>>>>> data transformation pipeline started! <<<<<<<<]
+[2024-05-04 20:32:32,368 INFO data_transformation_pipeline - Data Transformation process started...]
+[2024-05-04 20:32:32,384 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:32:32,384 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 20:32:32,384 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:32:32,384 INFO common - created directory at: artifacts]
+[2024-05-04 20:32:32,384 INFO common - created directory at: artifacts/data_transformation]
+[2024-05-04 20:32:32,399 INFO data_transformation - Splitted the data into training set and testing set]
+[2024-05-04 20:32:32,399 INFO data_transformation - (1199, 12)]
+[2024-05-04 20:32:32,399 INFO data_transformation - (400, 12)]
+[2024-05-04 20:32:32,399 INFO data_transformation_pipeline - Data Transformation process Completed!]
+[2024-05-04 20:32:32,399 INFO main - >>>>>>> data transformation pipeline completed! <<<<<<<<]
+[2024-05-04 20:34:13,402 INFO main - >>>>>>> data transformation pipeline started! <<<<<<<<]
+[2024-05-04 20:34:13,402 ERROR data_transformation_pipeline - Data Transformation Pipeline Failed!, Check the status.txt]
+[2024-05-04 20:34:13,402 ERROR data_transformation_pipeline - Data type status for sulphates is   False]
+[2024-05-04 20:34:13,417 INFO main - >>>>>>> data transformation pipeline completed! <<<<<<<<]
+[2024-05-04 20:35:54,484 INFO main - >>>>>>> data transformation pipeline started! <<<<<<<<]
+[2024-05-04 20:35:54,484 INFO data_transformation_pipeline - Data Transformation process started...]
+[2024-05-04 20:35:54,484 INFO common - yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:35:54,484 INFO common - yaml file: params.yaml loaded successfully]
+[2024-05-04 20:35:54,484 INFO common - yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:35:54,484 INFO common - created directory at: artifacts]
+[2024-05-04 20:35:54,484 INFO common - created directory at: artifacts/data_transformation]
+[2024-05-04 20:35:54,500 INFO data_transformation - Splitted the data into training set and testing set]
+[2024-05-04 20:35:54,500 INFO data_transformation - (1199, 12)]
+[2024-05-04 20:35:54,500 INFO data_transformation - (400, 12)]
+[2024-05-04 20:35:54,514 INFO data_transformation_pipeline - Data Transformation process Completed!]
+[2024-05-04 20:35:54,514 INFO main - >>>>>>> data transformation pipeline completed! <<<<<<<<]
