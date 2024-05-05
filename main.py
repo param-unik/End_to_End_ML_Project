@@ -4,26 +4,41 @@ from e2emlproject.pipelines.data_validation_pipeline import DataValidationPipeli
 from e2emlproject.pipelines.data_transformation_pipeline import (
     DataTransformationPipelineStage,
 )
-
-# STAGE_NAME = "data ingestion pipeline"
-# STAGE_NAME = "data validation pipeline"
-STAGE_NAME = "data transformation pipeline"
+from e2emlproject.pipelines.model_training_pipeline import ModelTraininingPipelineStage
+from e2emlproject.pipelines.model_evaluation_pipeline import (
+    ModelEvaluationPipelineStage,
+)
 
 
 try:
-    # logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
-    # obj = DataIngestionPipelineStage()
-    # obj.data_ingestion_pipeline()
-    # logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
+    STAGE_NAME = "Data ingestion pipeline"
+    logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
+    obj = DataIngestionPipelineStage()
+    obj.data_ingestion_pipeline()
+    logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
 
-    # logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
-    # obj = DataValidationPipelineStage()
-    # obj.data_validation_pipeline()
-    # logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
+    STAGE_NAME = "Data validation pipeline"
+    logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
+    obj = DataValidationPipelineStage()
+    obj.data_validation_pipeline()
+    logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
 
+    STAGE_NAME = "Data transformation pipeline"
     logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
     obj = DataTransformationPipelineStage()
     obj.data_transformation_pipeline()
+    logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
+
+    STAGE_NAME = "Model training pipeline"
+    logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
+    obj = ModelTraininingPipelineStage()
+    obj.model_trainer_pipeline()
+    logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
+
+    STAGE_NAME = "Model evaluation pipeline"
+    logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
+    obj = ModelEvaluationPipelineStage()
+    obj.model_evaluation_pipeline()
     logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
 
 except Exception as e:

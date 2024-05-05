@@ -18,7 +18,7 @@ class DataTransformationPipelineStage:
                     message, status = line.strip().split(":")
                     if status.strip() == "False":
                         break
-            if status.strip() != "False":
+            if status.strip() == "True":
                 logger.info("Data Transformation process started...")
                 config = ConfigurationManager()
                 data_transformation_config = config.get_data_transformation_config()
@@ -36,3 +36,11 @@ class DataTransformationPipelineStage:
                 raise Exception("Data is not valid check status.txt")
         except Exception as e:
             print(e)
+
+
+if __name__ == "__main__":
+
+    logger.info(f">>>>>>> {STAGE_NAME} started! <<<<<<<<")
+    obj = DataTransformationPipelineStage()
+    obj.data_transformation_pipeline()
+    logger.info(f">>>>>>> {STAGE_NAME} completed! <<<<<<<<")
